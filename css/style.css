@@ -1,0 +1,123 @@
+body{
+    font-family:'Red Hat Display', sans-serif;
+    background-image: url("/images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #e0e8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    width: 25%;
+    height: 75vh;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.header-img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.main-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px
+}
+.text-h1{
+    color: #132043;
+    font-weight: 900;
+    font-size: 25px;
+    text-align: center;
+}
+.text-p{
+    text-align: center;
+    margin-top: 20px;
+    color: #9395aa;
+    line-height: 25px;
+    font-weight: 500;
+}
+.price{
+    background-color: #f8f9fe;
+    width: 85%;
+    height: 80px;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.price-1{
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+.year{
+    margin-left: 5px;
+}
+.year-h3{
+    color: #2f3954;
+    font-weight: 900;
+    font-size: 13px;
+}
+.year-p{
+    color: #70759b;
+    font-weight: 500;
+    margin-top: 7px;
+    font-size: 12px;
+}
+.change{
+    margin-right: 10px;
+    font-size: 13px;
+}
+.change-h2{
+    text-transform: capitalize;
+    color: #382ae1;
+    font-weight: 900;
+    text-decoration: underline;
+}
+.change-h2:hover{
+    color: #776ed9;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+a{
+    text-decoration: none;
+}
+.payment{
+    width: 80%;
+    height: 40px;
+    background-color:#382ae1;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.payment-h2{
+    color: white;
+    font-size: 15px;
+}
+.payment:hover{
+    background-color: #766cf1;
+    transition-duration: 0.5s;
+}
+.cancel{
+    margin-top: 30px;
+    color: #737794;
+    font-weight: 700;
+}
+.cancel:hover{
+    color: #5b607e;
+    transition-duration: 0.5s;
+}
+@media only screen and (max-width: 375px){
+    .body{
+        background-image: url("/images/pattern-background-mobile.svg");
+    }
+    .container{
+        width: 90%;
+    }
+}
